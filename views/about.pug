@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+   include ../static/styleabout.css  
+   include ../static/style.css  
+   include ../static/stylegallery.css  
+block content
+ section#st
+    h2 About 
+    .hy HOME / ABOUT
+ section#s
+  .dest All | Destinations | Excursions | Tours
+  .desi
+    img(src="./static/tp.jpeg",alt="", srcset="")
+    img(src="./static/tr3.jpeg",alt="", srcset="")
+    img(src="./static/mountain.jpeg", alt="", srcset="")
+ section#what
+  h1 What people Say 
+  .mt  
+   img(src="./static/abt.jpg", alt="") 
+   .po "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur debitis quo tempore. Officiis, repudiandae repellat quos non dicta placeat? Delectus unde consequatur voluptas tenetur aliquid nam blanditiis, optio enim, explicabo est vel deserunt corporis!"
+    .name Sumi Jain
+  
+  section#w
+   .card
+    .awa 12
+      h5 Awards
+   .card 
+    .awa 194
+      h5 Tours
+   .card
+    .awa 2k
+      h5 Travelers
+   .card  
+    .awa 25
+      h5 Team Members 
+  section#foot
+   ul
+       li Contact Us
+       li Popular News
+       li Quick Links

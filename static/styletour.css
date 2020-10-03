@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sst{
+    display: flex;
+    border: 4px solid rgb(177, 177, 189);
+    margin: 32px 55px ;
+    padding: 25px;
+}
+.sst img{
+    border-radius: 8px;
+    height: 280px;
+    width: 350px;
+
+}
+.checked{
+    color: rgb(172, 146, 80);
+
+}
+.hy{
+    font-size: 2.2rem;
+    font-family: 'Gelasio', serif;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    /* color:rgb(67,67, 134) ; */
+}
+.k{
+    font-size: 1.2rem;
+    margin: 25px;
+}
+.bb{
+    font-size: 1.3rem;
+    border: 2px solid   rgb(67,67, 134);
+    background-color: rgb(161, 161, 182,.4);
+    border-radius: 6px;
+    padding: 4px;
+    width: 185px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    
+}

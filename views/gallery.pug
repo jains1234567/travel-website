@@ -1,0 +1,19 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+   include ../static/stylegallery.css  
+   include ../static/style.css  
+block content
+ section#st
+    h2 Gallery
+    .hy HOME / GALLERY
+ section#s
+  .dest All | Destinations | Excursions | Tours
+  .desi
+    img(src="./static/tp.jpeg",alt="", srcset="")
+    img(src="./static/tr3.jpeg",alt="", srcset="")
+    img(src="./static/mountain.jpeg", alt="", srcset="")

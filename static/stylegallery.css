@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#st::before{
+    height: 55vh;
+    width: 100vw;
+    content: " ";
+    position: absolute;
+    background: url(./static/lan.jpeg) no-repeat center center/cover;
+    z-index:-1;
+    opacity: .95;
+}
+h2{
+    font-size:2.5rem ;
+    font-weight: bold;
+    padding: 110px 0px 3px 0px; 
+}
+.hy{
+    font-size: 1.4rem;
+}
+#st{
+    height: 55vh;
+    font-family: 'Gelasio', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(77, 77, 114);
+    /* padding: 50px; */
+    /* text-align: center; */
+}
+.dest{
+    font-size: 1.95rem;
+    padding: 12px 0px 12px 0px;
+    text-align:center;
+}
+.desi {
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 12px;
+}
+.desi img{
+    border: 3px solid rgb(80, 80, 131);
+    height: 290px;
+    border-radius: 6px;
+    width: 340px;
+}
+#s{
+    background-color: rgb(194, 194, 204);
+    height: 65vh;
+    color: rgb(77, 77, 114);
+}

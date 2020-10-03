@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  style
+   include ../static/stylecontact.css  
+   include ../static/stylegallery.css  
+   include ../static/style.css  
+block content
+  section#st
+    h2 Contact Us 
+    .hy HOME / CONTACT US 
+  
+  section#c
+    .ph
+     .pim
+      img(src="./static/download.png", alt="", srcset="")
+     .ptx 
+       |+1 323-345-6785
+       |+1 356-567-5789
+    .ph
+      .pim
+       img(src="./static/email.png", alt="", srcset="")
+      .ptx 
+       |mail@demolink.org
+       |info@demolimk.org
+    .ph
+      .pim
+       img(src="./static/msg.png", alt="", srcset="")
+      .ptx 
+       |+1 323-345-6785
+       |+1 456-9765-9765
+  .container
+      h3 Get in Touch
+      form(action="/co",method="post" ,class="myfo")
+        input(type="text",class="myinput",name="name",placeholder="first name")
+        input(type="text",class="myinput",name="age",placeholder="last name")
+        input(type="text",class="myinput",name="email",placeholder=" email")
+        input(type="text",class="myinput",name="phone no.",placeholder="phone no.")
+        button(class="bbtn")
+         |Send Message

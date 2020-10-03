@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio&display=swap');
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    #navbar ul{
+    background-color:rgb(20, 20, 61,.8);
+    display: flex;
+    padding: 12px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    color: white;
+     text-decoration: none;
+     padding: 7px 20px;
+     font-size: 1.43rem;
+     font-weight: bold;
+     font-family: 'PatuaOne', cursive;
+    }
+    #navbar li a:hover{
+    color: rgb(121, 126, 170);
+    background-color: rgb(197, 197, 204);
+    border-radius: 9px;
+    border-right:5px solid rgb(121, 126, 170);
+    border-left:5px solid rgb(121, 126, 170);
+    padding: 2px 7px;
+
+}
+
+#intro{
+    height: 70vh;
+    display: flex;
+    color:white;
+    justify-content: center;
+    flex-direction: column;
+    background: url(./static/bg1.jpeg) no-repeat center center/cover;
+    z-index: 23;
+}
+.con{
+    font-size: 1.5rem;
+    margin: 12px 120px;
+    font-weight: bold;
+}
+.c{
+    margin: 15px 100px 9px 120px;
+    padding: 8px 0px;
+    font-family: 'Patua One', cursive;
+    font-size: 2.5rem;
+}
+.btn{
+font-family: 'Patua One',cursive;
+margin: 14px 120px;
+cursor: pointer;
+text-align: center;
+justify-content: center;
+padding: 5px 20px;
+font-size: 1.2rem;
+width: 150px;
+height: 40px;
+border: 2px solid rgb(223, 223, 235);
+}
+.bt{
+font-family: 'Patua One',cursive;
+margin: 16px 180px;
+cursor: pointer;
+text-align: center;
+justify-content: center;
+padding: 5px 20px;
+font-size: 1.2rem;
+width: 150px;
+height: 40px;
+background-color: skyblue;
+}
+.btn:hover{
+    color: rgb(187, 225, 235);
+    
+}
+#mid{
+    height: 72vh;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(112, 85, 85);
+    background-color: rgb(179, 213, 228);
+}
+.box img{
+    height:350px;
+    width: 280px;
+    /* margin: 10px 14px; */
+    border: 2px solid black;
+}.co{
+        margin: 5px 4px 6px 0px;
+        padding: 5px;
+        text-align: center;
+        font-size: 25px;
+        font-family:'Patua One',cursive ;
+    } 
+        .ct{
+            margin: 5px 4px 0px 0px;
+            padding: 5px;
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Gelasio', serif;
+            /* font-family: 'Monda', sans-serif;} */}
+#third{
+    display: flex;
+    height: 64vh;
+    background-color: rgb(203, 220, 221);
+}
+.cont{
+    margin: 40px 50px 10px 0px;
+    padding: 5px;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    /* font-family: 'Monda', sans-serif;
+     */
+     font-family: 'Gelasio', serif;
+}
+
+ #third img{ 
+     margin: 45px 60px 40px 90px; 
+    display:flex; 
+ }
+
+#service{margin: 0px;
+    height:51vh;
+    background-color: rgb(194, 203, 221,.1);
+}
+.container{
+    margin: px;
+    display :flex;
+}
+
+.box1{
+    background-color: rgb(197, 213, 219);
+    font-weight: 300;
+    border: 4px solid rgb(131, 128, 128);
+    border-radius: 8px;
+    height: 215px;
+    width: 390px;
+    font-family: 'Monda', sans-serif;
+    font-family:'PatuaOne',cursive ;
+    font-size: 1.5rem;
+    padding-top:5px ;
+    text-align: center;
+    margin: 20px 0px 25px 42px;   
+}
+h3{
+    /* margin-top: 10px; */
+    padding: 15px 0px 10px 0px;
+    text-align: center;
+    font-size: 2.1rem;
+    font-family: 'Monda', sans-serif;
+    font-family: 'Gelasio', serif;
+}
+.box-img img{
+    height: 35px;
+    width: 40px;
+    margin: 5px;
+}
+.box-card{
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.box-co{
+    font-size:20px;
+    margin: 20px 0px 10px 0px;
+    font-family:'Patua One',cursive ;
+}
+#people{
+    background-color: rgb(194, 203, 221,.3);
+}
+.b{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 25px;
+}
+.bx{
+    height: 200px;
+    width: 250px;
+    padding: 15px;
+    margin:10px 25px;
+    align-items: center;
+    font-size: 2.9rem;
+    border: 10px solid rgb(90, 90, 121);
+    
+    border-image: url(./static/mountain1.jpeg) 30 round;
+}
